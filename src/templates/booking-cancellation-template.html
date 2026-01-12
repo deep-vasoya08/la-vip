@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{#if isEventBooking}}Your Event Booking Has Been Cancelled{{else}}Your Tour Has Been Cancelled{{/if}} - LA VIP Tours & Charters</title>
+
+  <style type="text/css">
+    /* Reset styles */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+
+    /* Remove blue links for iOS */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* Center the email container */
+    .email-container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* Responsive styles */
+    @media only screen and (max-width: 600px) {
+      .email-container {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      .mobile-center {
+        text-align: center !important;
+      }
+      .mobile-padding {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+      .button {
+        width: 100% !important;
+        max-width: 300px !important;
+      }
+      .logo {
+        width: 150px !important;
+        height: auto !important;
+      }
+      .footer-logo {
+        width: 120px !important;
+        height: auto !important;
+      }
+      .social-icons td {
+        padding: 0 5px !important;
+      }
+    }
+
+    /* Button styles */
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #D4AF37 0%, #FFD700 50%, #B8860B 100%);
+      color: #000000 !important;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      border: none;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background: linear-gradient(135deg, #B8860B 0%, #D4AF37 50%, #FFD700 100%);
+      transform: translateY(-1px);
+    }
+
+    /* Logo styles */
+    .logo {
+      width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .footer-logo {
+      width: 160px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Social icon styles */
+    .social-icon {
+      width: 32px;
+      height: 32px;
+      display: block;
+      transition: opacity 0.3s ease;
+    }
+
+    .social-icon:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+<center style="width: 100%; background-color: #f8f9fa;">
+  <!--[if mso | IE]>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f8f9fa;">
+  <tr>
+  <td>
+  <![endif]-->
+
+  <!-- Email Container -->
+  <div class="email-container" style="max-width: 680px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    
+    <!-- Main Content -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+      <tr>
+        <td style="padding: 40px 30px; background-color: #ffffff;">
+          
+          <!-- Cancellation Header -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding-bottom: 30px;">
+                <h2 style="margin: 0; font-size: 24px; font-weight: bold; color: #2c3e50; line-height: 1.2;">
+                  {{#if isEventBooking}}Your Event Booking Has Been Cancelled{{else}}Your Tour Has Been Cancelled{{/if}}
+                </h2>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Personal Greeting -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding-bottom: 25px;">
+                <p style="margin: 0; font-size: 18px; color: #2c3e50; line-height: 1.6;">
+                  Hi <strong>{{customerFirstName}}</strong>,
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Cancellation Message -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding-bottom: 25px;">
+                {{#if isEventBooking}}
+                <p style="margin: 0; font-size: 16px; color: #555555; line-height: 1.6;">
+                  Your booking for <strong>{{bookingName}}</strong> on <strong>{{bookingDate}}</strong> has been successfully canceled.
+                </p>
+                <p style="margin: 15px 0 0 0; font-size: 16px; color: #555555; line-height: 1.6;">
+                  If this was a mistake or you'd like to rebook, feel free to contact us.
+                </p>
+                {{else}}
+                <p style="margin: 0; font-size: 16px; color: #555555; line-height: 1.6;">
+                  Your booking for the <strong>{{bookingName}}</strong> on <strong>{{bookingDate}}</strong> has been successfully canceled.
+                </p>
+                <p style="margin: 15px 0 0 0; font-size: 16px; color: #555555; line-height: 1.6;">
+                  If you have any questions or want to reschedule, simply contact us.
+                </p>
+                {{/if}}
+              </td>
+            </tr>
+          </table>
+
+          <!-- Refund Information (if provided) -->
+          {{#if refundMessage}}
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f0f9ff; border-radius: 8px; padding: 0; margin: 25px 0; border-left: 6px solid #3b82f6;">
+            <tr>
+              <td style="padding: 25px;">
+                <h3 style="margin: 0 0 15px 0; font-size: 18px; color: #1e40af; font-weight: bold;">
+                  💳 Refund Information
+                </h3>
+                <p style="margin: 0; font-size: 15px; color: #1f2937; line-height: 1.6;">
+                  {{refundMessage}}
+                </p>
+              </td>
+            </tr>
+          </table>
+          {{/if}}
+
+          <!-- Booking Reference -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #ffffff; border-radius: 8px; padding: 0; margin: 25px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 6px solid #e74c3c;">
+            <tr>
+              <td style="padding: 20px;">
+                <p style="margin: 0; font-size: 15px; color: #2c3e50;">
+                  🎫 <strong>Booking Reference:</strong> 
+                  <span style="color: #e74c3c; font-weight: bold;">{{bookingReference}}</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Contact Information -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f8f9fa; border-radius: 8px; margin: 25px 0;">
+            <tr>
+              <td style="padding: 25px; text-align: center;">
+                <h3 style="margin: 0 0 15px 0; font-size: 18px; color: #2c3e50; font-weight: bold;">
+                  Need Help?
+                </h3>
+                <p style="margin: 0 0 15px 0; font-size: 15px; color: #555555; line-height: 1.6;">
+                  If you have any questions or need assistance{{#if isEventBooking}} with rebooking{{else}}, including rescheduling{{/if}}, our team is here to help.
+                </p>
+                <p style="margin: 0; font-size: 15px; color: #555555; line-height: 1.6;">
+                  📞 <strong>{{contactPhone}}</strong> | 
+                  📧 <strong>{{contactEmail}}</strong>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Closing Message -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding-top: 30px; text-align: left;">
+                <p style="margin: 0 0 10px 0; font-size: 16px; color: #2c3e50; line-height: 1.6;">
+                  Best,
+                </p>
+                <p style="margin: 0; font-size: 16px; color: #2c3e50; line-height: 1.6; font-weight: bold;">
+                  The LA VIP Tours & Charters Team
+                </p>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+
+    <!-- COMPREHENSIVE FOOTER -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+      <tr>
+        <td style="padding: 40px 30px; background-color: #2c3e50; text-align: center;">
+          
+          <!-- Footer Logo -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding-bottom: 30px;">
+                <img src="https://lavip-test.s3.us-east-1.amazonaws.com/media/LA%20VIP%20Logo-silver-gold%20(2).svg" 
+                     alt="LA VIP Tours & Charters" 
+                     class="footer-logo"
+                     style="width: 160px; height: auto; display: block; margin: 0 auto;">
+              </td>
+            </tr>
+          </table>
+
+          <!-- Contact Information -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding-bottom: 25px;">
+                <h3 style="margin: 0; font-size: 18px; color: #D4AF37; font-weight: bold;">
+                  Contact Information
+                </h3>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-bottom: 8px;">
+                <p style="margin: 0; font-size: 15px; color: #ffffff;">
+                  📞 <strong>Phone:</strong> <a href="tel:1-800-438-1814" style="color: #D4AF37; text-decoration: none;">{{contactPhone}}</a>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-bottom: 8px;">
+                <p style="margin: 0; font-size: 15px; color: #ffffff;">
+                  ✉️ <strong>Email:</strong> <a href="mailto:info@laviptours.com" style="color: #D4AF37; text-decoration: none;">{{contactEmail}}</a>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-bottom: 30px;">
+                <p style="margin: 0; font-size: 15px; color: #ffffff;">
+                  🌐 <strong>Website:</strong> <a href="{{websiteUrl}}" style="color: #D4AF37; text-decoration: none;">{{websiteUrl}}</a>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Social Media Links -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding-bottom: 20px;">
+                <h3 style="margin: 0; font-size: 16px; color: #D4AF37; font-weight: bold;">
+                  Follow Us
+                </h3>
+                <p style="margin: 5px 0 0 0; font-size: 14px; color: #cccccc;">
+                  Stay connected for exclusive offers and updates
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-bottom: 30px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 0 auto;" class="social-icons">
+                  <tr>
+                    <!-- Instagram -->
+                    <td style="padding: 0 12px;">
+                      <a href="{{instagramUrl}}" style="text-decoration: none;">
+                        <img src="{{instagramIconUrl}}" 
+                             alt="Instagram" 
+                             class="social-icon"
+                             style="width: 32px; height: 32px; display: block;">
+                      </a>
+                    </td>
+                    <!-- Facebook -->
+                    <td style="padding: 0 12px;">
+                      <a href="{{facebookUrl}}" style="text-decoration: none;">
+                        <img src="{{facebookIconUrl}}" 
+                             alt="Facebook" 
+                             class="social-icon"
+                             style="width: 32px; height: 32px; display: block;">
+                      </a>
+                    </td>
+                    <!-- TripAdvisor -->
+                    <td style="padding: 0 12px;">
+                      <a href="{{tripadvisorUrl}}" style="text-decoration: none;">
+                        <img src="{{tripadvisorIconUrl}}" 
+                             alt="TripAdvisor" 
+                             class="social-icon"
+                             style="width: 32px; height: 32px; display: block;">
+                      </a>
+                    </td>
+                    <!-- Yelp -->
+                    <td style="padding: 0 12px;">
+                      <a href="{{yelpUrl}}" style="text-decoration: none;">
+                        <img src="{{yelpIconUrl}}" 
+                             alt="Yelp" 
+                             class="social-icon"
+                             style="width: 32px; height: 32px; display: block;">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+                
+                <!-- Social Media Text Links (for email clients that don't display images) -->
+                <p style="margin: 15px 0 0 0; font-size: 12px; color: #999999; line-height: 1.4;">
+                  <a href="{{instagramUrl}}" style="color: #D4AF37; text-decoration: none;">Instagram</a> • 
+                  <a href="{{facebookUrl}}" style="color: #D4AF37; text-decoration: none;">Facebook</a> • 
+                  <a href="{{tripadvisorUrl}}" style="color: #D4AF37; text-decoration: none;">TripAdvisor</a> • 
+                  <a href="{{yelpUrl}}" style="color: #D4AF37; text-decoration: none;">Yelp</a>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Copyright -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="border-top: 1px solid #444444; padding-top: 25px;">
+                <p style="margin: 0; font-size: 12px; color: #cccccc; line-height: 1.4;">
+                  © {{currentYear}} LA VIP Tours & Charters. All rights reserved.<br>
+                  You're receiving this email because you registered for an account with us.
+                </p>
+                <p style="margin: 15px 0 0 0; font-size: 11px; color: #999999;">
+                  <a href="{{termsOfServiceUrl}}" style="color: #999999; text-decoration: underline;">Terms & Condition</a> &nbsp; | &nbsp;
+                  <a href="{{privacyPolicyUrl}}" style="color: #999999; text-decoration: underline;">Privacy Policy</a> &nbsp; | &nbsp;
+                  <a href="{{cancellationPolicyUrl}}" style="color: #999999; text-decoration: underline;">Cancellation Policy</a> 
+                </p>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+  <!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]-->
+</center>
+
+</body>
+</html> 

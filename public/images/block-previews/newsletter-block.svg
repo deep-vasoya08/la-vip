@@ -1,0 +1,49 @@
+<svg width="200" height="120" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="120" rx="8" fill="#F3F4F6"/>
+  
+  <!-- Main Newsletter Bar (Mustard Background) -->
+  <rect x="12" y="35" width="176" height="50" rx="4" fill="#F59E0B"/>
+  
+  <!-- Headline Text Area (Left Side) -->
+  <rect x="20" y="45" width="100" height="6" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <text x="22" y="50" font-family="Arial, sans-serif" font-size="5" fill="#FFFFFF">Join our Newsletter to learn about</text>
+  <rect x="20" y="55" width="80" height="6" rx="3" fill="#FFFFFF" opacity="0.9"/>
+  <text x="22" y="60" font-family="Arial, sans-serif" font-size="5" fill="#FFFFFF">exclusive offers and events!</text>
+  
+  <!-- Button (Right Side) -->
+  <rect x="130" y="48" width="50" height="24" rx="4" fill="#FFFFFF"/>
+  <text x="155" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#F59E0B">SIGN UP</text>
+  
+  <!-- Modal Preview (Semi-transparent overlay) -->
+  <rect x="12" y="12" width="176" height="96" rx="4" fill="#000000" opacity="0.3"/>
+  
+  <!-- Modal Window -->
+  <rect x="50" y="25" width="100" height="70" rx="4" fill="#FFFFFF" stroke="#E5E7EB"/>
+  
+  <!-- Modal Header -->
+  <rect x="50" y="25" width="100" height="15" rx="4" fill="#F9FAFB"/>
+  <rect x="55" y="30" width="60" height="4" rx="2" fill="#F59E0B"/>
+  <text x="57" y="33" font-family="Arial, sans-serif" font-size="4" fill="#F59E0B">Newsletter Signup</text>
+  
+  <!-- Close X Button -->
+  <circle cx="142" cy="32" r="4" fill="#EF4444"/>
+  <text x="142" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#FFFFFF">×</text>
+  
+  <!-- Modal Content Area (Form) -->
+  <rect x="55" y="45" width="85" height="45" rx="2" fill="#F8FAFC" stroke="#E2E8F0"/>
+  
+  <!-- Form Fields -->
+  <rect x="60" y="50" width="75" height="8" rx="2" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="62" y="55" font-family="Arial, sans-serif" font-size="4" fill="#9CA3AF">Email Address</text>
+  
+  <rect x="60" y="62" width="75" height="8" rx="2" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="62" y="67" font-family="Arial, sans-serif" font-size="4" fill="#9CA3AF">Name (Optional)</text>
+  
+  <!-- Submit Button -->
+  <rect x="60" y="75" width="35" height="10" rx="5" fill="#10B981"/>
+  <text x="77.5" y="81" text-anchor="middle" font-family="Arial, sans-serif" font-size="5" fill="#FFFFFF">Subscribe</text>
+  
+  <!-- Click indicator arrow -->
+  <path d="M125 55 L135 50 L135 60 Z" fill="#3B82F6" opacity="0.7"/>
+  
+</svg>

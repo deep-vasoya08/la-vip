@@ -1,0 +1,13 @@
+<svg width="200" height="120" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="120" rx="8" fill="#F3F4F6"/>
+  <rect x="12" y="12" width="176" height="96" rx="4" fill="#FFFBEB"/>
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="16" fill="#F59E0B">"</text>
+  <rect x="30" y="30" width="140" height="4" rx="2" fill="#92400E"/>
+  <rect x="30" y="38" width="120" height="4" rx="2" fill="#92400E"/>
+  <rect x="30" y="46" width="130" height="4" rx="2" fill="#92400E"/>
+  <text x="170" y="50" font-family="Arial, sans-serif" font-size="16" fill="#F59E0B">"</text>
+  <circle cx="35" cy="70" r="8" fill="#E5E7EB"/>
+  <rect x="50" y="65" width="60" height="4" rx="2" fill="#374151"/>
+  <rect x="50" y="73" width="40" height="3" rx="1.5" fill="#6B7280"/>
+  <polygon points="160,60 170,65 160,70" fill="#F59E0B"/>
+</svg>

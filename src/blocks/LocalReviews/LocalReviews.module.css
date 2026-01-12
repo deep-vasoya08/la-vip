@@ -1,0 +1,38 @@
+/* Force all text to be black and background to be white with !important */
+.localReviewsContainer * {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+}
+
+/* Ensure the main container also has white background */
+.localReviewsContainer {
+  background-color: #ffffff !important;
+}
+
+/* Override any specific text elements that might have different colors */
+.localReviewsContainer p,
+.localReviewsContainer span,
+.localReviewsContainer div,
+.localReviewsContainer h1,
+.localReviewsContainer h2,
+.localReviewsContainer h3,
+.localReviewsContainer h4,
+.localReviewsContainer h5,
+.localReviewsContainer h6,
+.localReviewsContainer a,
+.localReviewsContainer li,
+.localReviewsContainer td,
+.localReviewsContainer th {
+  color: #000000 !important;
+}
+
+/* Override any background colors on nested elements */
+.localReviewsContainer div,
+.localReviewsContainer section,
+.localReviewsContainer article,
+.localReviewsContainer aside,
+.localReviewsContainer header,
+.localReviewsContainer footer,
+.localReviewsContainer main {
+  background-color: #ffffff !important;
+}

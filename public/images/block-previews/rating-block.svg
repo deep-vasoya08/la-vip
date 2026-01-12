@@ -1,0 +1,14 @@
+<svg width="200" height="120" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="120" rx="8" fill="#F3F4F6"/>
+  <rect x="12" y="12" width="176" height="96" rx="4" fill="#FFFFFF"/>
+  <text x="100" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Customer Rating</text>
+  <text x="100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#F59E0B">4.8</text>
+  <g transform="translate(50, 50)">
+    <polygon points="20,5 22,15 30,15 24,20 26,30 20,25 14,30 16,20 10,15 18,15" fill="#F59E0B"/>
+    <polygon points="35,5 37,15 45,15 39,20 41,30 35,25 29,30 31,20 25,15 33,15" fill="#F59E0B"/>
+    <polygon points="50,5 52,15 60,15 54,20 56,30 50,25 44,30 46,20 40,15 48,15" fill="#F59E0B"/>
+    <polygon points="65,5 67,15 75,15 69,20 71,30 65,25 59,30 61,20 55,15 63,15" fill="#F59E0B"/>
+    <polygon points="80,5 82,15 90,15 84,20 86,30 80,25 74,30 76,20 70,15 78,15" fill="#D1D5DB"/>
+  </g>
+  <text x="100" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Based on 1,234 reviews</text>
+</svg>

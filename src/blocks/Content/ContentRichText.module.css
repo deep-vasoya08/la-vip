@@ -1,0 +1,86 @@
+.contentRichText {
+  background-color: var(--beige) !important;
+  color: var(--black) !important;
+  padding: 2rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Target all heading elements */
+.contentRichText h1,
+.contentRichText h2,
+.contentRichText h3,
+.contentRichText h4,
+.contentRichText h5,
+.contentRichText h6 {
+  color: var(--black) !important;
+  font-family: 'Semplicita', sans-serif !important;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+}
+
+/* Target paragraphs */
+.contentRichText p {
+  color: var(--black) !important;
+  line-height: 1.5 !important;
+  font-family: 'Roboto', sans-serif !important;
+  margin-bottom: 1.2rem !important;
+}
+
+/* Target links */
+.contentRichText a {
+  color: var(--mustard) !important; /* mustard color for links */
+  font-family: 'Semplicita', sans-serif !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+}
+
+/* Target lists */
+.contentRichText ul,
+.contentRichText ol {
+  color: var(--black) !important;
+  font-family: 'Roboto', sans-serif !important;
+  margin-bottom: 1.2rem !important;
+  padding-left: 2rem !important;
+}
+
+.contentRichText li {
+  color: var(--black) !important;
+  font-family: 'Roboto', sans-serif !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Target blockquotes */
+.contentRichText blockquote {
+  color: var(--black) !important;
+  border-left: 4px solid var(--mustard) !important;
+  border-left-color: var(--mustard) !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-style: italic !important;
+  padding-left: 1.5rem !important;
+  margin: 2rem 0 !important;
+}
+
+/* Target code blocks */
+.contentRichText pre,
+.contentRichText code {
+  color: var(--black) !important;
+  background-color: var(--light-gray) !important;
+  font-family: monospace !important;
+}
+
+/* Target tables */
+.contentRichText table,
+.contentRichText th,
+.contentRichText td {
+  color: var(--black) !important;
+  border-color: var(--light-beige) !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Ensure all default text is the specified color */
+.contentRichText * {
+  color: var(--black) !important;
+  font-family: 'Roboto', sans-serif !important;
+}

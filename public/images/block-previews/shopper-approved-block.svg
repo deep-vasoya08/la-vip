@@ -1,0 +1,23 @@
+<svg width="200" height="120" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="120" rx="8" fill="#F3F4F6"/>
+  <rect x="12" y="12" width="176" height="96" rx="4" fill="#FFFFFF"/>
+  <text x="20" y="28" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#374151">ShopperApproved</text>
+  <text x="20" y="40" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Tell us about your experience</text>
+  <!-- Star rating -->
+  <g transform="translate(20, 50)">
+    <polygon points="5,2 6,6 9,6 7,9 8,13 5,10 2,13 3,9 1,6 4,6" fill="#F59E0B"/>
+    <polygon points="15,2 16,6 19,6 17,9 18,13 15,10 12,13 13,9 11,6 14,6" fill="#F59E0B"/>
+    <polygon points="25,2 26,6 29,6 27,9 28,13 25,10 22,13 23,9 21,6 24,6" fill="#F59E0B"/>
+    <polygon points="35,2 36,6 39,6 37,9 38,13 35,10 32,13 33,9 31,6 34,6" fill="#F59E0B"/>
+    <polygon points="45,2 46,6 49,6 47,9 48,13 45,10 42,13 43,9 41,6 44,6" fill="#F59E0B"/>
+  </g>
+  <!-- Review box -->
+  <rect x="20" y="65" width="160" height="25" rx="3" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <rect x="25" y="70" width="80" height="3" rx="1.5" fill="#D1D5DB"/>
+  <rect x="25" y="76" width="100" height="3" rx="1.5" fill="#D1D5DB"/>
+  <rect x="25" y="82" width="60" height="3" rx="1.5" fill="#D1D5DB"/>
+  <!-- Submit button -->
+  <rect x="100" y="68" width="70" height="16" rx="3" fill="#F59E0B"/>
+  <text x="135" y="79" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">Submit Review</text>
+</svg>
+

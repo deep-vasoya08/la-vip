@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Event Booking Has Been Cancelled - LA VIP Tours & Charters</title>
+  <style type="text/css">
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { border-collapse: collapse; }
+    .email-container { max-width: 680px; margin: 0 auto; }
+    @media only screen and (max-width: 600px) {
+      .email-container { width: 100% !important; }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f8f9fa; font-family: Arial, sans-serif;">
+  <center style="width: 100%; background-color: #f8f9fa;">
+    <div class="email-container" style="max-width: 680px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+      
+      <!-- Main Content -->
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td style="padding: 40px 30px; background-color: #ffffff;">
+            
+            <!-- Header -->
+            <h2 style="margin: 0 0 30px 0; font-size: 24px; font-weight: bold; color: #2c3e50;">
+              Your Event Booking Has Been Cancelled
+            </h2>
+
+            <!-- Greeting -->
+            <p style="margin: 0 0 25px 0; font-size: 18px; color: #2c3e50;">
+              Hi <strong>{{customerFirstName}}</strong>,
+            </p>
+
+            <!-- Cancellation Message -->
+            <p style="margin: 0 0 15px 0; font-size: 16px; color: #555555; line-height: 1.6;">
+              Your booking for <strong>{{bookingName}}</strong> on <strong>{{bookingDate}}</strong> has been successfully canceled.
+            </p>
+            <p style="margin: 0 0 25px 0; font-size: 16px; color: #555555; line-height: 1.6;">
+              If this was a mistake or you'd like to rebook, feel free to contact us.
+            </p>
+
+            <!-- Booking Details (Optional) -->
+            {{#if bookingReference}}
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 25px 0;">
+              <p style="margin: 0; font-size: 14px; color: #666666;">
+                <strong>Booking Reference:</strong> {{bookingReference}}
+              </p>
+            </div>
+            {{/if}}
+
+            <!-- Refund Information (Optional) -->
+            {{#if refundMessage}}
+            <div style="background-color: #e8f5e8; padding: 20px; border-radius: 5px; margin: 25px 0; border-left: 4px solid #28a745;">
+              <p style="margin: 0; font-size: 14px; color: #155724;">
+                {{refundMessage}}
+              </p>
+            </div>
+            {{/if}}
+
+            <!-- Closing -->
+            <div style="padding-top: 30px;">
+              <p style="margin: 0 0 10px 0; font-size: 16px; color: #2c3e50;">
+                Best,
+              </p>
+              <p style="margin: 0; font-size: 16px; color: #2c3e50; font-weight: bold;">
+                The LA VIP Tours & Charters Team
+              </p>
+            </div>
+
+          </td>
+        </tr>
+      </table>
+
+      <!-- Footer -->
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td style="padding: 20px 30px; color: #666666; text-align: center; border-top: 1px solid #e9ecef;">
+            <p style="margin: 0; font-size: 12px; color: #666666;">
+              © {{currentYear}} LA VIP Tours & Charters. All rights reserved.
+            </p>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </center>
+</body>
+</html> 

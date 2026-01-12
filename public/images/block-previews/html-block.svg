@@ -1,0 +1,21 @@
+<svg width="200" height="120" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="120" rx="8" fill="#F3F4F6"/>
+  <rect x="12" y="12" width="176" height="96" rx="4" fill="#1F2937"/>
+  <text x="20" y="25" font-family="monospace" font-size="8" fill="#10B981">&lt;div</text>
+  <text x="45" y="25" font-family="monospace" font-size="8" fill="#F59E0B"> class=</text>
+  <text x="75" y="25" font-family="monospace" font-size="8" fill="#EF4444">"container"</text>
+  <text x="110" y="25" font-family="monospace" font-size="8" fill="#10B981">&gt;</text>
+  <text x="30" y="35" font-family="monospace" font-size="8" fill="#10B981">&lt;h1&gt;</text>
+  <text x="55" y="35" font-family="monospace" font-size="8" fill="#F3F4F6">Custom HTML</text>
+  <text x="110" y="35" font-family="monospace" font-size="8" fill="#10B981">&lt;/h1&gt;</text>
+  <text x="30" y="45" font-family="monospace" font-size="8" fill="#10B981">&lt;p&gt;</text>
+  <text x="45" y="45" font-family="monospace" font-size="8" fill="#F3F4F6">Raw HTML content</text>
+  <text x="125" y="45" font-family="monospace" font-size="8" fill="#10B981">&lt;/p&gt;</text>
+  <text x="30" y="55" font-family="monospace" font-size="8" fill="#10B981">&lt;script&gt;</text>
+  <text x="40" y="65" font-family="monospace" font-size="8" fill="#60A5FA">console.log</text>
+  <text x="85" y="65" font-family="monospace" font-size="8" fill="#F3F4F6">(</text>
+  <text x="90" y="65" font-family="monospace" font-size="8" fill="#EF4444">'Hello'</text>
+  <text x="115" y="65" font-family="monospace" font-size="8" fill="#F3F4F6">);</text>
+  <text x="30" y="75" font-family="monospace" font-size="8" fill="#10B981">&lt;/script&gt;</text>
+  <text x="20" y="85" font-family="monospace" font-size="8" fill="#10B981">&lt;/div&gt;</text>
+</svg>
